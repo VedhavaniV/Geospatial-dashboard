@@ -124,7 +124,3 @@ CMD ["nginx", "-g", "daemon off;"]
 docker build -t geospatial-dashboard .
 docker run -p 80:80 geospatial-dashboard
 ```
-
-## 📄 License
-
-MIT
