@@ -1,5 +1,5 @@
 // src/components/MapView.jsx
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, LayersControl, useMap } from "react-leaflet";
 import { createCustomIcon } from "../utils/mapUtils";
 import EventPopup from "./EventPopup";
